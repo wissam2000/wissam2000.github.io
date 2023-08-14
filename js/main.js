@@ -4,23 +4,23 @@
 	'use strict';
 
 	var projectsArray = [
-		{
-			"id": "projectTykOperator",
-			"url": "https://github.com/TykTechnologies/tyk-operator"
-		},
+		// {
+		// 	"id": "projectTykOperator",
+		// 	"url": "https://github.com/TykTechnologies/tyk-operator"
+		// },
 		// {
 		// 	"id": "projectCloudixia",
 		// 	"url": "https://ajtima.com"
 		// },
-		{
-			"id": "projectServ",
-			"url": "https://www.getserv.io"
-		},
+		// {
+		// 	"id": "projectServ",
+		// 	"url": "https://www.getserv.io"
+		// },
 
-		{
-			"id": "projectSedkodes",
-			"url": "https://www.youtube.com/channel/UCXR-k7wwwhdovpXXkRitJ_g"
-		}
+		// {
+		// 	"id": "projectSedkodes",
+		// 	"url": "https://www.youtube.com/channel/UCXR-k7wwwhdovpXXkRitJ_g"
+		// }
 	]
 
 	projectsArray.forEach(element => {
