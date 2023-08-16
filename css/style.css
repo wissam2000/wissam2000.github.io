@@ -743,7 +743,7 @@ body.offcanvas {
 .progress-wrap h3 {
   font-size: 16px;
   font-family: "Quicksand", Arial, sans-serif;
-  margin-bottom: 10px; }
+  margin-bottom: 20px; }
 
 .progress {
   height: 6px;
@@ -781,7 +781,7 @@ body.offcanvas {
     border-radius: 50%; }
   .progress-bar span {
     position: absolute;
-    top: -22px;
+    top: -18px;
     right: 0; }
   .progress-bar.color-1 {
     background: #2c98f0; }
