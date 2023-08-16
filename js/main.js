@@ -305,7 +305,31 @@
 		});
 	});
 // ... Your existing code ...
-
+// Function to adjust the height of .desc elements dynamically
+function adjustDescHeight() {
+	$('.services .desc').height('auto'); // Reset height to auto to recalculate
+	var maxDescHeight = 0;
+	$('.services .desc').each(function () {
+	  var descHeight = $(this).height();
+	  if (descHeight > maxDescHeight) {
+		maxDescHeight = descHeight;
+	  }
+	});
+	
+	// Add padding to the calculated maximum height
+	var padding = 20; // Adjust the padding value as needed
+	maxDescHeight += padding;
+	
+	$('.services .desc').height(maxDescHeight);
+  }
+  
+  // Attach the adjustDescHeight function to the window resize event
+  $(window).on('resize', adjustDescHeight);
+  
+  // Initial adjustment on page load
+  $(document).ready(function () {
+	adjustDescHeight();
+  });
 
 const lazyLoadElements = document.querySelectorAll('.lazy-animated');
 const observer = new IntersectionObserver(entries => {
@@ -324,6 +348,7 @@ lazyLoadElements.forEach(element => {
 });
 
 
+  
 }());
 
 
