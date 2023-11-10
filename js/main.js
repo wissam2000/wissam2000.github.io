@@ -8,6 +8,11 @@
 			"id": "soritngVisualizer",
 			"url": "https://github.com/wissam2000/sorting_visualizer"
 		}
+		,
+		{
+			"id": "snakeGame",
+			"url": "https://github.com/wissam2000/snake_game"
+		}
 	]
 
 	projectsArray.forEach(element => {
