@@ -714,7 +714,7 @@ body.offcanvas .colorlib-nav-toggle {
   .timeline-entry
   .timeline-entry-inner
   .timeline-icon.color-1 {
-  background: #2c98f0;
+  background: #50b900;
 }
 .timeline-centered
   .timeline-entry
@@ -752,6 +752,14 @@ body.offcanvas .colorlib-nav-toggle {
   .timeline-icon.color-7 {
   background: #f5880a;
 }
+
+.timeline-centered
+  .timeline-entry
+  .timeline-entry-inner
+  .timeline-icon.color-8 {
+  background: #4285f4;
+}
+
 .timeline-centered
   .timeline-entry
   .timeline-entry-inner
